@@ -1,0 +1,395 @@
+.topnav {
+  display: flex;
+  background-color: rgba(240, 231, 233, 0.699);
+  border-style: groove;
+  gap: 40px;
+  overflow: hidden;
+  align-items: center;
+  border-color: transparent;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.cali {
+  font-size: 25px;
+}
+
+.home {
+  animation: movedown 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.placements {
+  animation: movedown 1s linear 1;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.ranking {
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.contactus {
+  animation: movedown 1s linear 1;
+  animation-delay: 2.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-50px);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+
+.nit {
+  text-align: center;
+  font-size: 25px;
+}
+
+.one {
+  position: relative;
+  left: 20%;
+  display: flex;
+  gap: 50px;
+  font-size: 19px;
+}
+
+.calicut {
+  display: block;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+}
+
+.slide {
+  height: 600px;
+  width: 100%;
+  text-shadow: grey;
+}
+
+.imgslide {
+  box-shadow: -2px 10px 10px 10px rgba(0, 0, 0, 0.25);
+  margin-left: 10%;
+  margin-right: 10%;
+  animation: zoomin 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0.5);
+    visibility: visible;
+  }
+
+  100% {
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.topnav a {
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: rgb(106, 224, 240);
+}
+
+a:hover {
+  color: rgb(106, 224, 240);
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: rgb(116, 230, 88);
+}
+
+.news {
+  border-style: groove;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-color: transparent;
+  background-color: rgba(240, 231, 233, 0.699);
+}
+
+.latest {
+  text-align: center;
+  font-family: "Scheherazade New", serif;
+  font-size: 29px;
+}
+
+.welcomenitc {
+  text-align: center;
+  margin: 60px;
+  font-size: 25px;
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 3s steps(40, end),
+    blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 50%
+  }
+}
+
+@keyframes blink-caret {
+  from to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+.pdf {
+  padding-left: 5%;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    display: block;
+  }
+.welcomenitc{
+  font-size: 15px;
+}
+  .one {
+    display: block;
+    left: 2%;
+    gap: 2px;
+  }
+
+  .slide {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .one {
+    left: 1%;
+  }
+}
+
+.five {
+  animation: moveright 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes moveright {
+  0%{
+    transform: translateX(-200px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateX(0px);
+    visibility: visible;
+  }
+}
+.six {
+  animation: moveright 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.seven {
+  animation: moveright 1s linear 1;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.eight {
+  animation: moveright 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.nine {
+  animation: moveright 1s linear 1;
+  animation-delay: 2.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.ten {
+  animation: moveright 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.eleven {
+  animation: moveright 1s linear 1;
+  animation-delay: 4s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.twelve {
+  animation: moveright 1s linear 1;
+  animation-delay: 4.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.thirteen {
+  animation: moveright 1s linear 1;
+  animation-delay: 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.fourteen {
+  animation: moveright 1s linear 1;
+  animation-delay: 5.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.fifteen {
+  animation: moveright 1s linear 1;
+  animation-delay: 6s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.sixteen {
+  animation: moveright 1s linear 1;
+  animation-delay: 6.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.seventeen {
+  animation: moveright 1s linear 1;
+  animation-delay: 7s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.eighteen {
+  animation: moveright 1s linear 1;
+  animation-delay: 7.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.nineteen {
+  animation: moveright 1s linear 1;
+  animation-delay: 8s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.latest{
+  animation: moveleft 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes moveleft {
+  0%{
+    transform: translateX(600px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateX(0px);
+    visibility: visible;
+  }
+}
+.down{
+  background-color: black;
+  height: 30%;
+  width: 100%;
+  margin: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-instagram {
+  color: red;
+  align: center;
+}
+.fa-linkedin {
+  color: blue;
+}
+.icon__part {
+  text-align: center;
+  padding-left: 0%;
+}
+.Footer__part {
+  border-style: groove;
+  background-color: black;
+  border-radius: 10px;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
+.Powered {
+  color: white;
+  text-align: center;
+}

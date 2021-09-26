@@ -1,0 +1,168 @@
+.topnav {
+  display: flex;
+  background-color: rgba(240, 231, 233, 0.699);
+  border-style: groove;
+  gap: 40px;
+  overflow: hidden;
+  align-items: center;
+  border-color: transparent;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.cali {
+  font-size: 25px;
+  color: black;
+}
+.home{
+  animation: movedown 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.placements{
+  animation: movedown 1s linear 1;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.ranking{
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.contactus{
+  animation: movedown 1s linear 1;
+  animation-delay: 2.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes movedown {
+  0%{
+    transform: translateY(-50px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+.nit {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+.one {
+  position: relative;
+  left: 20%;
+  display: flex;
+  gap: 50px;
+  font-size: 19px;
+}
+.calicut {
+  display: block;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+}
+.logo {
+  height: 120px;
+  width: 120px;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.topnav a {
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: rgb(106, 224, 240);
+}
+a:hover {
+  color: rgb(106, 224, 240);
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: rgb(116, 230, 88);
+}
+.bg-image{
+  animation: zoomin 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-instagram {
+  color: red;
+  align: center;
+}
+.fa-linkedin{
+  color: blue;
+}
+.icon__part {
+  align: center;
+  padding-left: 0%;
+  margin-top: 50px;
+}
+.Footer__part {
+  border-style: groove;
+  background-color: black;
+  border-radius: 10px;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
+.Powered {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .topnav {
+    display: block;
+  }
+  .one {
+    display: block;
+    left: 2%;
+    gap: 2px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .one {
+    left: 1%;
+  }

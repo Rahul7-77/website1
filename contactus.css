@@ -1,0 +1,248 @@
+body {
+  background-color: whitesmoke;
+}
+.topnav {
+  display: flex;
+  background-color: rgba(240, 231, 233, 0.699);
+  border-style: groove;
+  gap: 40px;
+  overflow: hidden;
+  align-items: center;
+  border-color: transparent;
+}
+.logo {
+  height: 120px;
+  width: 120px;
+}
+a {
+  color: black;
+}
+p {
+  font-size: 25px;
+}
+.home{
+  animation: movedown 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.placements{
+  animation: movedown 1s linear 1;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.ranking{
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.contactus{
+  animation: movedown 1s linear 1;
+  animation-delay: 2.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes movedown {
+  0%{
+    transform: translateY(-50px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+.nit {
+  text-align: center;
+}
+.one {
+  position: relative;
+  left: 20%;
+  display: flex;
+  gap: 40px;
+  font-size: 19px;
+}
+.calicut {
+  display: block;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.logo{
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+}
+.topnav a {
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: rgb(106, 224, 240);
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: rgb(116, 230, 88);
+}
+
+.nav__bar {
+  display: flex;
+  gap: 15px;
+  border-style: none;
+}
+.profile__image {
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 4px;
+  height: 6%;
+  width: 6%;
+}
+
+.Contact {
+  text-align: center;
+  color: white;
+  line-break: 10px;
+  font-size: 40px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(255, 253, 253);
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #67e8f1;
+  color: rgb(7, 7, 7);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #070707;
+  padding: 20px;
+  animation: zoomin 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 12px;
+  color: white;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 12px;
+}
+.res {
+  position: relative;
+  left: 40%;
+}
+.sub {
+  position: relative;
+  right: 45%;
+  top: 8px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-instagram {
+  color: red;
+  align: center;
+}
+.fa-linkedin{
+  color: blue;
+}
+.icon__part {
+  align: center;
+  padding-left: 0%;
+}
+.Footer__part {
+  border-style: groove;
+  background-color: black;
+  border-radius: 10px;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
+.Powered {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .topnav {
+    display: block;
+  }
+  .one {
+    display: block;
+    left: 2%;
+    gap: 2px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .one {
+    left: 1%;
+  }
+}

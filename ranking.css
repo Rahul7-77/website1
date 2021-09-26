@@ -1,0 +1,266 @@
+.topnav {
+  display: flex;
+  background-color: rgba(240, 231, 233, 0.699);
+  border-style: groove;
+  gap: 40px;
+  overflow: hidden;
+  align-items: center;
+  border-color: transparent;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.cali {
+  font-size: 25px;
+}
+.nirf{
+  animation: zoomin 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+.home{
+  animation: movedown 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.placements{
+  animation: movedown 1s linear 1;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.ranking{
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.contactus{
+  animation: movedown 1s linear 1;
+  animation-delay: 2.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes movedown {
+  0%{
+    transform: translateY(-50px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+.nit {
+  text-align: center;
+  font-size: 25px;
+}
+.one {
+  position: relative;
+  left: 20%;
+  display: flex;
+  gap: 50px;
+  font-size: 19px;
+}
+.calicut {
+  display: block;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+}
+.logo {
+  height: 120px;
+  width: 120px;
+  animation: movedown 1s linear 1;
+  animation-delay: 0.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.topnav a {
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: rgb(106, 224, 240);
+}
+a:hover {
+  color: rgb(106, 224, 240);
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: rgb(116, 230, 88);
+}
+.nirf21 {
+  height: 300px;
+  width: 430px;
+}
+.nirf20 {
+  height: 300px;
+  width: 430px;
+}
+.nirf19 {
+  height: 300px;
+  width: 430px;
+}
+.nirf {
+  display: block;
+  border-style: groove;
+  background-color: transparent;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-color: transparent;
+}
+.nir2019 {
+  display: flex;
+  gap: 170px;
+  margin-left: 15%;
+}
+.nir21 {
+  align-items: center;
+  text-align: center;
+}
+.nir20 {
+  text-align: center;
+}
+.nir19 {
+  text-align: center;
+}
+.nirf21p {
+  color: white;
+  font-size: 25px;
+}
+.nirf20p {
+  color: white;
+  font-size: 25px;
+}
+.nirf19p {
+  color: white;
+  font-size: 25px;
+}
+body {
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-c4c1e92510e38a371aa16a73fd33a738");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.engi2021 {
+  border-style: groove;
+  background-color: rgba(240, 231, 233, 0.699);
+  text-align: center;
+  border-radius: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.rank {
+  font-size: 19px;
+}
+.download {
+  font-size: 17px;
+  border-style: groove;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+h1 {
+  font-family: "Scheherazade New", serif;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-instagram {
+  color: red;
+  align: center;
+}
+.fa-linkedin {
+  color: blue;
+}
+.icon__part {
+  align: center;
+  padding-left: 0%;
+  text-align: center;
+}
+.Footer__part {
+  border-style: groove;
+  background-color: black;
+  border-radius: 10px;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
+.Powered {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .topnav {
+    display: block;
+  }
+  .one {
+    display: block;
+    left: 2%;
+    gap: 2px;
+  }
+  .nir2019 {
+    display: block;
+    margin-left: 0%;
+  }
+  .nirf21 {
+    height: 250px;
+    width: 300px;
+  }
+  .nirf20 {
+    height: 250px;
+    width: 300px;
+  }
+  .nirf19 {
+    height: 250px;
+    width: 300px;
+  }
+  .download {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .one {
+    left: 1%;
+  }
+  .nir2019 {
+    margin-left: 0%;
+    gap: 50px;
+  }
+}
+.nir19{
+  margin-right: 40px;
+}
